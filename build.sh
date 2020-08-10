@@ -5,6 +5,6 @@ BASE=$2
 
 cp ./$VER/$BASE/Dockerfile ./
 
-docker build -t alinode-$VER-$BASE .
+docker build -t registry.cn-shenzhen.aliyuncs.com/openbt/alinode:5.16.0-jessie-slim .
 
 
